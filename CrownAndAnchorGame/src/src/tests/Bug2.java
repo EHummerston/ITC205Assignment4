@@ -19,7 +19,7 @@ public class Bug2 {
 	}
 
 	@Test
-	public void test() {
+	public void bug2_betBalance_betDenied() {
 		Player player = new Player("test", 100);
 		assertFalse(player.balanceExceedsLimitBy(player.getBalance()));
 	}

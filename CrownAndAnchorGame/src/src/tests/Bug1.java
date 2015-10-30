@@ -48,7 +48,7 @@ public class Bug1 {
 	}
 
 	@Test
-	public void payWager_1Match_NoBalanceChange() {
+	public void bug1_1Match_NoBalanceChange() {
 		
 		int limit = 0;
 		player.setLimit(limit);
